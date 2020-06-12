@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/utils.js"></script>
+    <script src="./js/factory.js"></script>
+</head>
+<body>
+    <!-- <label for="inSprites" id="spr-btn" style="cursor: pointer;">选择图集</label> -->
+    <ul>
+        <li>
+            <span>选择图集：</span>
+            <input type="file" accept="image/jpeg, image/png" id="inSprites">
+        </li>
+        <br/>
+        <li>
+            <span>选择配置：</span>
+            <input type="file" accept=".json" id="inConfig">
+        </li>
+    </ul>
+    <br/>
+    <button id="save" style="border: 1px solid #333333;">拆分并保存</button>
+
+    <div id="preview"></div>
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

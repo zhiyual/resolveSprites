@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    list-style: none;
+}
+
+.context {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: antiquewhite;
+}
+
+button {
+    border: #000000 solid 1px;
+}
